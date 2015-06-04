@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0893B1C1B0ED78900E14CA8 /* scaleRater.png in Resources */ = {isa = PBXBuildFile; fileRef = D0893B1B1B0ED78900E14CA8 /* scaleRater.png */; };
+		D0D71E3F1B115E810093B5D2 /* realArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D71E3E1B115E810093B5D2 /* realArrow.png */; };
+		D0E891CB1B0D8A5A00AE33D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E891CA1B0D8A5A00AE33D9 /* AppDelegate.swift */; };
+		D0E891CD1B0D8A5A00AE33D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E891CC1B0D8A5A00AE33D9 /* ViewController.swift */; };
+		D0E891D01B0D8A5A00AE33D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E891CE1B0D8A5A00AE33D9 /* Main.storyboard */; };
+		D0E891D21B0D8A5A00AE33D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0E891D11B0D8A5A00AE33D9 /* Images.xcassets */; };
+		D0E891D51B0D8A5A00AE33D9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0E891D31B0D8A5A00AE33D9 /* LaunchScreen.xib */; };
+		D0E891E11B0D8A5A00AE33D9 /* How_High_Ya_HomieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E891E01B0D8A5A00AE33D9 /* How_High_Ya_HomieTests.swift */; };
+		D0E891EB1B0D8BB100AE33D9 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E891EA1B0D8BB100AE33D9 /* arrow.png */; };
+		D0E891EE1B0EB75300AE33D9 /* homieLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E891ED1B0EB75300AE33D9 /* homieLogo.png */; };
+		D0E891F01B0EBAEF00AE33D9 /* StartScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E891EF1B0EBAEF00AE33D9 /* StartScreenViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0E891DB1B0D8A5A00AE33D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0E891BD1B0D8A5A00AE33D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0E891C41B0D8A5A00AE33D9;
+			remoteInfo = "How High Ya Homie";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0893B1B1B0ED78900E14CA8 /* scaleRater.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scaleRater.png; sourceTree = "<group>"; };
+		D0D71E3E1B115E810093B5D2 /* realArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = realArrow.png; sourceTree = "<group>"; };
+		D0E891C51B0D8A5A00AE33D9 /* How High Ya Homie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "How High Ya Homie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E891C91B0D8A5A00AE33D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0E891CA1B0D8A5A00AE33D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0E891CC1B0D8A5A00AE33D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0E891CF1B0D8A5A00AE33D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0E891D11B0D8A5A00AE33D9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D0E891D41B0D8A5A00AE33D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D0E891DA1B0D8A5A00AE33D9 /* How High Ya HomieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "How High Ya HomieTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E891DF1B0D8A5A00AE33D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0E891E01B0D8A5A00AE33D9 /* How_High_Ya_HomieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = How_High_Ya_HomieTests.swift; sourceTree = "<group>"; };
+		D0E891EA1B0D8BB100AE33D9 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		D0E891ED1B0EB75300AE33D9 /* homieLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homieLogo.png; sourceTree = "<group>"; };
+		D0E891EF1B0EBAEF00AE33D9 /* StartScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScreenViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0E891C21B0D8A5A00AE33D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E891D71B0D8A5A00AE33D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0E891BC1B0D8A5A00AE33D9 = {
+			isa = PBXGroup;
+			children = (
+				D0E891C71B0D8A5A00AE33D9 /* How High Ya Homie */,
+				D0E891DD1B0D8A5A00AE33D9 /* How High Ya HomieTests */,
+				D0E891C61B0D8A5A00AE33D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0E891C61B0D8A5A00AE33D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0E891C51B0D8A5A00AE33D9 /* How High Ya Homie.app */,
+				D0E891DA1B0D8A5A00AE33D9 /* How High Ya HomieTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0E891C71B0D8A5A00AE33D9 /* How High Ya Homie */ = {
+			isa = PBXGroup;
+			children = (
+				D0E891CA1B0D8A5A00AE33D9 /* AppDelegate.swift */,
+				D0E891EF1B0EBAEF00AE33D9 /* StartScreenViewController.swift */,
+				D0E891CC1B0D8A5A00AE33D9 /* ViewController.swift */,
+				D0E891CE1B0D8A5A00AE33D9 /* Main.storyboard */,
+				D0E891D11B0D8A5A00AE33D9 /* Images.xcassets */,
+				D0E891D31B0D8A5A00AE33D9 /* LaunchScreen.xib */,
+				D0E891EC1B0D8BB300AE33D9 /* Resources */,
+				D0E891C81B0D8A5A00AE33D9 /* Supporting Files */,
+			);
+			path = "How High Ya Homie";
+			sourceTree = "<group>";
+		};
+		D0E891C81B0D8A5A00AE33D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0E891C91B0D8A5A00AE33D9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0E891DD1B0D8A5A00AE33D9 /* How High Ya HomieTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0E891E01B0D8A5A00AE33D9 /* How_High_Ya_HomieTests.swift */,
+				D0E891DE1B0D8A5A00AE33D9 /* Supporting Files */,
+			);
+			path = "How High Ya HomieTests";
+			sourceTree = "<group>";
+		};
+		D0E891DE1B0D8A5A00AE33D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0E891DF1B0D8A5A00AE33D9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0E891EC1B0D8BB300AE33D9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D0D71E3E1B115E810093B5D2 /* realArrow.png */,
+				D0893B1B1B0ED78900E14CA8 /* scaleRater.png */,
+				D0E891ED1B0EB75300AE33D9 /* homieLogo.png */,
+				D0E891EA1B0D8BB100AE33D9 /* arrow.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0E891C41B0D8A5A00AE33D9 /* How High Ya Homie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0E891E41B0D8A5A00AE33D9 /* Build configuration list for PBXNativeTarget "How High Ya Homie" */;
+			buildPhases = (
+				D0E891C11B0D8A5A00AE33D9 /* Sources */,
+				D0E891C21B0D8A5A00AE33D9 /* Frameworks */,
+				D0E891C31B0D8A5A00AE33D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "How High Ya Homie";
+			productName = "How High Ya Homie";
+			productReference = D0E891C51B0D8A5A00AE33D9 /* How High Ya Homie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0E891D91B0D8A5A00AE33D9 /* How High Ya HomieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0E891E71B0D8A5A00AE33D9 /* Build configuration list for PBXNativeTarget "How High Ya HomieTests" */;
+			buildPhases = (
+				D0E891D61B0D8A5A00AE33D9 /* Sources */,
+				D0E891D71B0D8A5A00AE33D9 /* Frameworks */,
+				D0E891D81B0D8A5A00AE33D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0E891DC1B0D8A5A00AE33D9 /* PBXTargetDependency */,
+			);
+			name = "How High Ya HomieTests";
+			productName = "How High Ya HomieTests";
+			productReference = D0E891DA1B0D8A5A00AE33D9 /* How High Ya HomieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0E891BD1B0D8A5A00AE33D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Justin Matsnev";
+				TargetAttributes = {
+					D0E891C41B0D8A5A00AE33D9 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					D0E891D91B0D8A5A00AE33D9 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = D0E891C41B0D8A5A00AE33D9;
+					};
+				};
+			};
+			buildConfigurationList = D0E891C01B0D8A5A00AE33D9 /* Build configuration list for PBXProject "How High Ya Homie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0E891BC1B0D8A5A00AE33D9;
+			productRefGroup = D0E891C61B0D8A5A00AE33D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0E891C41B0D8A5A00AE33D9 /* How High Ya Homie */,
+				D0E891D91B0D8A5A00AE33D9 /* How High Ya HomieTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0E891C31B0D8A5A00AE33D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D71E3F1B115E810093B5D2 /* realArrow.png in Resources */,
+				D0E891EE1B0EB75300AE33D9 /* homieLogo.png in Resources */,
+				D0893B1C1B0ED78900E14CA8 /* scaleRater.png in Resources */,
+				D0E891D01B0D8A5A00AE33D9 /* Main.storyboard in Resources */,
+				D0E891D51B0D8A5A00AE33D9 /* LaunchScreen.xib in Resources */,
+				D0E891D21B0D8A5A00AE33D9 /* Images.xcassets in Resources */,
+				D0E891EB1B0D8BB100AE33D9 /* arrow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E891D81B0D8A5A00AE33D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0E891C11B0D8A5A00AE33D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E891F01B0EBAEF00AE33D9 /* StartScreenViewController.swift in Sources */,
+				D0E891CD1B0D8A5A00AE33D9 /* ViewController.swift in Sources */,
+				D0E891CB1B0D8A5A00AE33D9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E891D61B0D8A5A00AE33D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E891E11B0D8A5A00AE33D9 /* How_High_Ya_HomieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0E891DC1B0D8A5A00AE33D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0E891C41B0D8A5A00AE33D9 /* How High Ya Homie */;
+			targetProxy = D0E891DB1B0D8A5A00AE33D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0E891CE1B0D8A5A00AE33D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0E891CF1B0D8A5A00AE33D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0E891D31B0D8A5A00AE33D9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0E891D41B0D8A5A00AE33D9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0E891E21B0D8A5A00AE33D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0E891E31B0D8A5A00AE33D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0E891E51B0D8A5A00AE33D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "How High Ya Homie/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D0E891E61B0D8A5A00AE33D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "How High Ya Homie/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D0E891E81B0D8A5A00AE33D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "How High Ya HomieTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/How High Ya Homie.app/How High Ya Homie";
+			};
+			name = Debug;
+		};
+		D0E891E91B0D8A5A00AE33D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "How High Ya HomieTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/How High Ya Homie.app/How High Ya Homie";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0E891C01B0D8A5A00AE33D9 /* Build configuration list for PBXProject "How High Ya Homie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E891E21B0D8A5A00AE33D9 /* Debug */,
+				D0E891E31B0D8A5A00AE33D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0E891E41B0D8A5A00AE33D9 /* Build configuration list for PBXNativeTarget "How High Ya Homie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E891E51B0D8A5A00AE33D9 /* Debug */,
+				D0E891E61B0D8A5A00AE33D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0E891E71B0D8A5A00AE33D9 /* Build configuration list for PBXNativeTarget "How High Ya HomieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E891E81B0D8A5A00AE33D9 /* Debug */,
+				D0E891E91B0D8A5A00AE33D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0E891BD1B0D8A5A00AE33D9 /* Project object */;
+}
