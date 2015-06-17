@@ -23,7 +23,11 @@ class StartScreenViewController: UIViewController, UINavigationControllerDelegat
     }
     
     @IBAction func chooseAPic(sender : AnyObject) {
+        imagePicker =  UIImagePickerController()
+        imagePicker.delegate = self
+        imagePicker.sourceType = .SavedPhotosAlbum
         
+        presentViewController(imagePicker, animated: true, completion: nil)
     }
 //    func imagePickerController(picker: UIImagePickerController, didFinishPickingImage image: UIImage!, editingInfo: [NSObject : AnyObject]!) {
 //        var defaults: NSUserDefaults = NSUserDefaults.standardUserDefaults()
