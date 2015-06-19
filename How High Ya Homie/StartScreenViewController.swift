@@ -25,7 +25,7 @@ class StartScreenViewController: UIViewController, UINavigationControllerDelegat
     @IBAction func chooseAPic(sender : AnyObject) {
         imagePicker =  UIImagePickerController()
         imagePicker.delegate = self
-        imagePicker.sourceType = .SavedPhotosAlbum
+        imagePicker.sourceType = UIImagePickerControllerSourceType.SavedPhotosAlbum
         
         presentViewController(imagePicker, animated: true, completion: nil)
     }
@@ -45,7 +45,6 @@ class StartScreenViewController: UIViewController, UINavigationControllerDelegat
         let image1 = UIImageJPEGRepresentation(image2, 1.0)
         defaults.setObject(image1, forKey: "image")
         defaults.synchronize()
-        
         self.performSegueWithIdentifier("startToPic", sender: self)
 
     }

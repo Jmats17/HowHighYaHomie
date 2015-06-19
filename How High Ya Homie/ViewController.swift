@@ -15,21 +15,21 @@ class ViewController: UIViewController {
     @IBOutlet var image: UIImageView!
  
     
-    @IBOutlet var arrow: UIImageView!
+ //   @IBOutlet var arrow: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
    
     }
     override func viewDidAppear(animated: Bool) {
-        arrow.layer.anchorPoint = CGPointMake(0.5, 1)
+   //     arrow.layer.anchorPoint = CGPointMake(0.5, 1)
         let pointsArray : Array = [-80,-60,-40,-15,15,40,60,80]
         let randomIndex = Int(arc4random_uniform(UInt32(pointsArray.count)))
         UIView.animateWithDuration(5.0, animations: {
             // animating `transform` allows us to change 2D geometry of the object
             // like `scale`, `rotation` or `translate`
      
-            self.arrow.transform = CGAffineTransformMakeRotation(CGFloat(self.DegreesToRadians(Double(CGFloat(pointsArray[randomIndex])))))
+        //    self.arrow.transform = CGAffineTransformMakeRotation(CGFloat(self.DegreesToRadians(Double(CGFloat(pointsArray[randomIndex])))))
             
         })
         

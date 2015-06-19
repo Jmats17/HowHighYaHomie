@@ -18,6 +18,8 @@
 		D0E891EB1B0D8BB100AE33D9 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E891EA1B0D8BB100AE33D9 /* arrow.png */; };
 		D0E891EE1B0EB75300AE33D9 /* homieLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E891ED1B0EB75300AE33D9 /* homieLogo.png */; };
 		D0E891F01B0EBAEF00AE33D9 /* StartScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E891EF1B0EBAEF00AE33D9 /* StartScreenViewController.swift */; };
+		D0FC6BEB1B34B2DB00B3D19D /* circle_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = D0FC6BEA1B34B2DB00B3D19D /* circle_grey.png */; };
+		D0FC6BEF1B34B64D00B3D19D /* homieButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D0FC6BEE1B34B64D00B3D19D /* homieButton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		D0E891EA1B0D8BB100AE33D9 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
 		D0E891ED1B0EB75300AE33D9 /* homieLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homieLogo.png; sourceTree = "<group>"; };
 		D0E891EF1B0EBAEF00AE33D9 /* StartScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScreenViewController.swift; sourceTree = "<group>"; };
+		D0FC6BEA1B34B2DB00B3D19D /* circle_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle_grey.png; sourceTree = "<group>"; };
+		D0FC6BEE1B34B64D00B3D19D /* homieButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homieButton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,8 +131,10 @@
 		D0E891EC1B0D8BB300AE33D9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D0FC6BEA1B34B2DB00B3D19D /* circle_grey.png */,
 				D0D71E3E1B115E810093B5D2 /* realArrow.png */,
 				D0893B1B1B0ED78900E14CA8 /* scaleRater.png */,
+				D0FC6BEE1B34B64D00B3D19D /* homieButton.png */,
 				D0E891ED1B0EB75300AE33D9 /* homieLogo.png */,
 				D0E891EA1B0D8BB100AE33D9 /* arrow.png */,
 			);
@@ -217,10 +223,12 @@
 			files = (
 				D0D71E3F1B115E810093B5D2 /* realArrow.png in Resources */,
 				D0E891EE1B0EB75300AE33D9 /* homieLogo.png in Resources */,
+				D0FC6BEB1B34B2DB00B3D19D /* circle_grey.png in Resources */,
 				D0893B1C1B0ED78900E14CA8 /* scaleRater.png in Resources */,
 				D0E891D01B0D8A5A00AE33D9 /* Main.storyboard in Resources */,
 				D0E891D51B0D8A5A00AE33D9 /* LaunchScreen.xib in Resources */,
 				D0E891D21B0D8A5A00AE33D9 /* Images.xcassets in Resources */,
+				D0FC6BEF1B34B64D00B3D19D /* homieButton.png in Resources */,
 				D0E891EB1B0D8BB100AE33D9 /* arrow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,9 +378,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "How High Ya Homie/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -380,9 +391,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "How High Ya Homie/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
