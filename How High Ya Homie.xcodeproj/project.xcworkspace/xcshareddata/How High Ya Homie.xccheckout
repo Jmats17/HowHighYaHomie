@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>6B1E7399-7164-4D98-9B9B-B71645CF727A</string>
 	<key>IDESourceControlProjectName</key>
-	<string>How High Ya Homie</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>691EB89AA84FFAD8E0A0452B7A7A665E29493E4B</key>
 		<string>https://github.com/Jmats17/HowHighYaHomie.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>How High Ya Homie.xcodeproj</string>
+	<string>How High Ya Homie.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>691EB89AA84FFAD8E0A0452B7A7A665E29493E4B</key>

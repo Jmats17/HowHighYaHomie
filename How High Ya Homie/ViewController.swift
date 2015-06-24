@@ -13,9 +13,23 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet var image: UIImageView!
- 
-    
+    @IBOutlet var eyeLabel : UILabel!
+    @IBOutlet var lookLabel : UILabel!
+    @IBOutlet var startProcessButton : UIButton!
+    @IBOutlet var progressLabel : UILabel!
+    @IBOutlet var progressView : UIProgressView!
+    var defaults: NSUserDefaults = NSUserDefaults.standardUserDefaults()
+
  //   @IBOutlet var arrow: UIImageView!
+    var counter:Int = 0 {
+        didSet {
+            let fractionalProgress = Float(counter) / 200.0
+            let animated = counter != 0
+            
+            progressView.setProgress(fractionalProgress, animated: animated)
+            progressLabel.text = ("\(counter)%")
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,7 +47,6 @@ class ViewController: UIViewController {
             
         })
         
-        var defaults: NSUserDefaults = NSUserDefaults.standardUserDefaults()
         if defaults.dataForKey("image") != nil {
             let imageData = defaults.objectForKey("image") as! NSData
             var image1 = UIImage(data: imageData)
@@ -43,6 +56,60 @@ class ViewController: UIViewController {
             image.layer.borderWidth = 4.0
         }
     }
+    
+    @IBAction func startProcessButton(sender : AnyObject)
+    {
+        let startVal = 0
+        let timer = 1.0
+        let numArray : Array = [0,1,2,3,4,5,6,7,8,9,10]
+        let randNum = Int(arc4random_uniform(UInt32(numArray.count)))
+        let randNumLook = Int(arc4random_uniform(UInt32(numArray.count)))
+        let finalNum = (Float(randNumLook + randNum) / 2.0)
+        self.startProcessButton.enabled = false
+        defaults.setFloat(finalNum, forKey: "finalNum")
+        println(finalNum)
+        defaults.synchronize()
+//        let delay = timer * Double(NSEC_PER_SEC)  // nanoseconds per seconds
+//        var dispatchTime = dispatch_time(DISPATCH_TIME_NOW, Int64(delay))
+
+
+//        dispatch_after(dispatchTime, dispatch_get_main_queue(), {
+//            
+//            //self.lookLabel.text = "\(randNumLook)"
+//           
+//            
+//        })
+        let endView = self.storyboard!.instantiateViewControllerWithIdentifier("EndViewController") as! EndViewController
+        progressLabel.text = "0%"
+        self.counter = 0
+        for i in 0..<200 {
+            dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), {
+                sleep(1)
+                dispatch_async(dispatch_get_main_queue(), {
+                    self.counter++
+                    if self.counter == 50 {
+                        self.eyeLabel.text = "\(randNum)"
+                        self.counter++
+
+                    }
+                    if self.counter == 100 {
+                        self.lookLabel.text = "\(randNumLook)"
+                        self.counter++
+
+                    }
+                    if self.counter == 200 {
+                        self.presentViewController(endView, animated: true, completion: nil)
+                        self.counter++
+
+                    }
+                    return
+                })
+            })
+        }
+       
+    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

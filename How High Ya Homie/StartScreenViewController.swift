@@ -14,6 +14,7 @@ class StartScreenViewController: UIViewController, UINavigationControllerDelegat
     var imagePicker: UIImagePickerController!
     var imageView : UIImageView!
     
+    
     @IBAction func snapAPic(sender : AnyObject) {
         imagePicker =  UIImagePickerController()
         imagePicker.delegate = self
