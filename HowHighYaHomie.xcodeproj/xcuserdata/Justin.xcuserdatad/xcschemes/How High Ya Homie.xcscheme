@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D0E891C41B0D8A5A00AE33D9"
-               BuildableName = "How High Ya Homie.app"
+               BuildableName = "How High YaHomie.app"
                BlueprintName = "How High Ya Homie"
-               ReferencedContainer = "container:How High Ya Homie.xcodeproj">
+               ReferencedContainer = "container:HowHighYaHomie.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -31,7 +31,7 @@
                BlueprintIdentifier = "D0E891D91B0D8A5A00AE33D9"
                BuildableName = "How High Ya HomieTests.xctest"
                BlueprintName = "How High Ya HomieTests"
-               ReferencedContainer = "container:How High Ya Homie.xcodeproj">
+               ReferencedContainer = "container:HowHighYaHomie.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -49,7 +49,7 @@
                BlueprintIdentifier = "D0E891D91B0D8A5A00AE33D9"
                BuildableName = "How High Ya HomieTests.xctest"
                BlueprintName = "How High Ya HomieTests"
-               ReferencedContainer = "container:How High Ya Homie.xcodeproj">
+               ReferencedContainer = "container:HowHighYaHomie.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D0E891C41B0D8A5A00AE33D9"
-            BuildableName = "How High Ya Homie.app"
+            BuildableName = "How High YaHomie.app"
             BlueprintName = "How High Ya Homie"
-            ReferencedContainer = "container:How High Ya Homie.xcodeproj">
+            ReferencedContainer = "container:HowHighYaHomie.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D0E891C41B0D8A5A00AE33D9"
-            BuildableName = "How High Ya Homie.app"
+            BuildableName = "How High YaHomie.app"
             BlueprintName = "How High Ya Homie"
-            ReferencedContainer = "container:How High Ya Homie.xcodeproj">
+            ReferencedContainer = "container:HowHighYaHomie.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +96,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D0E891C41B0D8A5A00AE33D9"
-            BuildableName = "How High Ya Homie.app"
+            BuildableName = "How High YaHomie.app"
             BlueprintName = "How High Ya Homie"
-            ReferencedContainer = "container:How High Ya Homie.xcodeproj">
+            ReferencedContainer = "container:HowHighYaHomie.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

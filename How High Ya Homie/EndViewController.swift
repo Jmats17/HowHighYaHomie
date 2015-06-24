@@ -23,14 +23,17 @@ extension UIView {
     }
 }
 
-class EndViewController : UIViewController {
+class EndViewController : UIViewController  {
     
     @IBOutlet var image : UIImageView!
     @IBOutlet var typeImage : UIImageView!
     var defaults: NSUserDefaults = NSUserDefaults.standardUserDefaults()
-   
-    
-    
+    let loginView : FBSDKLoginManager = FBSDKLoginManager()
+    @IBOutlet var fbButton : UIButton!
+    @IBOutlet var twitterButton : UIButton!
+    @IBOutlet var saveButton : UIButton!
+    @IBOutlet var restartButton : UIButton!
+    @IBOutlet var wholeImage : UIImageView!
 
     override func viewDidAppear(animated: Bool) {
         let num: AnyObject? = defaults.objectForKey("finalNum")?.floatValue
@@ -94,6 +97,60 @@ class EndViewController : UIViewController {
             image.layer.borderWidth = 2.0
         }
 
+    }
+    
+    @IBAction func facebookShare(sender : AnyObject) {
+        if (FBSDKAccessToken.currentAccessToken() != nil)
+        {
+            // User is already logged in, do work such as go to next view controller.
+        }
+        else
+        {
+            var fbLoginManager : FBSDKLoginManager = FBSDKLoginManager()
+            fbLoginManager .logInWithReadPermissions(["email"], handler: { (result, error) -> Void in
+                if (error == nil){
+                    var fbloginresult : FBSDKLoginManagerLoginResult = result
+                    if(fbloginresult.grantedPermissions.contains("email"))
+                    {
+                        self.getFBUserData()
+                        fbLoginManager.logOut()
+                    }
+                }
+            })
+
+        }
+    }
+    func getFBUserData(){
+        if((FBSDKAccessToken.currentAccessToken()) != nil){
+            FBSDKGraphRequest(graphPath: "me", parameters: ["fields": "id, name, first_name, last_name, publish_actions , picture.type(large), email"]).startWithCompletionHandler({ (connection, result, error) -> Void in
+                if (error == nil){
+                    println(result)
+                }
+            })
+        }
+    }
+
+    
+  
+    @IBAction func twitterShare(sender : AnyObject) {
+        
+    }
+    @IBAction func restart(sender : AnyObject) {
+            let goBackView = self.storyboard!.instantiateViewControllerWithIdentifier("StartScreenViewController") as! StartScreenViewController
+
+        self.presentViewController(goBackView, animated: true, completion: nil)
+    }
+    @IBAction func savePhoto(sender : AnyObject) {
+        fbButton.hidden = true
+        twitterButton.hidden = true
+        saveButton.hidden = true
+        restartButton.hidden = true
+        UIGraphicsBeginImageContext(wholeImage.frame.size)
+        view.layer.renderInContext(UIGraphicsGetCurrentContext())
+        let image1 = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        //Save it to the camera roll
+        UIImageWriteToSavedPhotosAlbum(image1, nil, nil, nil)
     }
     override func viewDidLoad() {
         super.viewDidLoad()
