@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D0E891C41B0D8A5A00AE33D9"
-               BuildableName = "How High YaHomie.app"
+               BuildableName = "HowHighYaHomie.app"
                BlueprintName = "How High Ya Homie"
                ReferencedContainer = "container:HowHighYaHomie.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D0E891C41B0D8A5A00AE33D9"
-            BuildableName = "How High YaHomie.app"
+            BuildableName = "HowHighYaHomie.app"
             BlueprintName = "How High Ya Homie"
             ReferencedContainer = "container:HowHighYaHomie.xcodeproj">
          </BuildableReference>
@@ -53,7 +53,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D0E891C41B0D8A5A00AE33D9"
-            BuildableName = "How High YaHomie.app"
+            BuildableName = "HowHighYaHomie.app"
             BlueprintName = "How High Ya Homie"
             ReferencedContainer = "container:HowHighYaHomie.xcodeproj">
          </BuildableReference>
@@ -72,7 +72,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D0E891C41B0D8A5A00AE33D9"
-            BuildableName = "How High YaHomie.app"
+            BuildableName = "HowHighYaHomie.app"
             BlueprintName = "How High Ya Homie"
             ReferencedContainer = "container:HowHighYaHomie.xcodeproj">
          </BuildableReference>

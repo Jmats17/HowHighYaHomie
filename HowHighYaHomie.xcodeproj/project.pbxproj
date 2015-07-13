@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D08A1A061B434F8A00BC8763 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = D08A1A051B434F8A00BC8763 /* button.png */; };
 		D08FA1721B39E48500275F9E /* button (7).png in Resources */ = {isa = PBXBuildFile; fileRef = D08FA1701B39E48500275F9E /* button (7).png */; };
 		D08FA1731B39E48500275F9E /* button (6).png in Resources */ = {isa = PBXBuildFile; fileRef = D08FA1711B39E48500275F9E /* button (6).png */; };
 		D08FA17E1B39F3ED00275F9E /* baked.png in Resources */ = {isa = PBXBuildFile; fileRef = D08FA1741B39F3ED00275F9E /* baked.png */; };
@@ -22,11 +23,6 @@
 		D08FA1891B39F5C700275F9E /* EndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08FA1881B39F5C700275F9E /* EndViewController.swift */; };
 		D08FA18F1B3A034200275F9E /* weed.png in Resources */ = {isa = PBXBuildFile; fileRef = D08FA18E1B3A034200275F9E /* weed.png */; };
 		D08FA1911B3A041D00275F9E /* weed 16-06-24-929.png in Resources */ = {isa = PBXBuildFile; fileRef = D08FA1901B3A041D00275F9E /* weed 16-06-24-929.png */; };
-		D0A56CDC1B3A483C0077071B /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A56CDB1B3A483C0077071B /* FBSDKCoreKit.framework */; };
-		D0A56CDE1B3A4A220077071B /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A56CDD1B3A4A220077071B /* FBSDKShareKit.framework */; };
-		D0A56CE11B3A4AF50077071B /* FBBridgingHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A56CE01B3A4AF50077071B /* FBBridgingHeader.m */; };
-		D0A56CE31B3A4C2B0077071B /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A56CE21B3A4C2B0077071B /* FBSDKLoginKit.framework */; };
-		D0A56CE51B3A4C320077071B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A56CE41B3A4C320077071B /* Bolts.framework */; };
 		D0A56CE71B3A4D640077071B /* facebook-login-button.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A56CE61B3A4D640077071B /* facebook-login-button.png */; };
 		D0A56CEA1B3A4E170077071B /* twitter_circle_color-128.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A56CE81B3A4E170077071B /* twitter_circle_color-128.png */; };
 		D0A56CEB1B3A4E170077071B /* 1435131014_facebook_circle_color.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A56CE91B3A4E170077071B /* 1435131014_facebook_circle_color.png */; };
@@ -60,6 +56,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D08A1A051B434F8A00BC8763 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
 		D08FA1701B39E48500275F9E /* button (7).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button (7).png"; sourceTree = "<group>"; };
 		D08FA1711B39E48500275F9E /* button (6).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button (6).png"; sourceTree = "<group>"; };
 		D08FA1741B39F3ED00275F9E /* baked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baked.png; sourceTree = "<group>"; };
@@ -75,12 +72,6 @@
 		D08FA1881B39F5C700275F9E /* EndViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndViewController.swift; sourceTree = "<group>"; };
 		D08FA18E1B3A034200275F9E /* weed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weed.png; sourceTree = "<group>"; };
 		D08FA1901B3A041D00275F9E /* weed 16-06-24-929.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weed 16-06-24-929.png"; sourceTree = "<group>"; };
-		D0A56CDB1B3A483C0077071B /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
-		D0A56CDD1B3A4A220077071B /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
-		D0A56CDF1B3A4AF50077071B /* How High Ya Homie-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "How High Ya Homie-Bridging-Header.h"; sourceTree = "<group>"; };
-		D0A56CE01B3A4AF50077071B /* FBBridgingHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBBridgingHeader.m; sourceTree = "<group>"; };
-		D0A56CE21B3A4C2B0077071B /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
-		D0A56CE41B3A4C320077071B /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		D0A56CE61B3A4D640077071B /* facebook-login-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook-login-button.png"; sourceTree = "<group>"; };
 		D0A56CE81B3A4E170077071B /* twitter_circle_color-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter_circle_color-128.png"; sourceTree = "<group>"; };
 		D0A56CE91B3A4E170077071B /* 1435131014_facebook_circle_color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1435131014_facebook_circle_color.png; sourceTree = "<group>"; };
@@ -89,6 +80,7 @@
 		D0A56CF01B3A51620077071B /* 519566-062_Redo-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "519566-062_Redo-128.png"; sourceTree = "<group>"; };
 		D0A56CF21B3A53680077071B /* imessage-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imessage-128.png"; sourceTree = "<group>"; };
 		D0A56CF41B3A55BF0077071B /* coollogo_com-7459119.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coollogo_com-7459119.png"; sourceTree = "<group>"; };
+		D0DB426E1B3E4EFA001A9046 /* How High Ya Homie-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "How High Ya Homie-Bridging-Header.h"; sourceTree = "<group>"; };
 		D0DD8F151B37B5D1005A7623 /* collage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = collage.png; sourceTree = "<group>"; };
 		D0DD8F191B37BCF8005A7623 /* coollogo_com-127414877.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coollogo_com-127414877.png"; sourceTree = "<group>"; };
 		D0DD8F1D1B37BEA5005A7623 /* Screen Shot 2015-06-21 at 11.54.46 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2015-06-21 at 11.54.46 PM.png"; sourceTree = "<group>"; };
@@ -112,10 +104,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0A56CDE1B3A4A220077071B /* FBSDKShareKit.framework in Frameworks */,
-				D0A56CDC1B3A483C0077071B /* FBSDKCoreKit.framework in Frameworks */,
-				D0A56CE31B3A4C2B0077071B /* FBSDKLoginKit.framework in Frameworks */,
-				D0A56CE51B3A4C320077071B /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +120,6 @@
 		D0A56CD81B3A45AD0077071B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D0A56CE41B3A4C320077071B /* Bolts.framework */,
-				D0A56CE21B3A4C2B0077071B /* FBSDKLoginKit.framework */,
-				D0A56CDD1B3A4A220077071B /* FBSDKShareKit.framework */,
-				D0A56CDB1B3A483C0077071B /* FBSDKCoreKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -165,8 +149,7 @@
 				D0E891EF1B0EBAEF00AE33D9 /* StartScreenViewController.swift */,
 				D0E891CC1B0D8A5A00AE33D9 /* ViewController.swift */,
 				D08FA1881B39F5C700275F9E /* EndViewController.swift */,
-				D0A56CE01B3A4AF50077071B /* FBBridgingHeader.m */,
-				D0A56CDF1B3A4AF50077071B /* How High Ya Homie-Bridging-Header.h */,
+				D0DB426E1B3E4EFA001A9046 /* How High Ya Homie-Bridging-Header.h */,
 				D0E891CE1B0D8A5A00AE33D9 /* Main.storyboard */,
 				D0E891D11B0D8A5A00AE33D9 /* Images.xcassets */,
 				D0E891D31B0D8A5A00AE33D9 /* LaunchScreen.xib */,
@@ -205,6 +188,7 @@
 		D0E891EC1B0D8BB300AE33D9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D08A1A051B434F8A00BC8763 /* button.png */,
 				D0DD8F151B37B5D1005A7623 /* collage.png */,
 				D0DD8F1D1B37BEA5005A7623 /* Screen Shot 2015-06-21 at 11.54.46 PM.png */,
 				D0DD8F191B37BCF8005A7623 /* coollogo_com-127414877.png */,
@@ -317,6 +301,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D08A1A061B434F8A00BC8763 /* button.png in Resources */,
 				D0A56CED1B3A4F1B0077071B /* Camera-Front-128.png in Resources */,
 				D08FA1821B39F3ED00275F9E /* otw.png in Resources */,
 				D0A56CF51B3A55BF0077071B /* coollogo_com-7459119.png in Resources */,
@@ -364,7 +349,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0A56CE11B3A4AF50077071B /* FBBridgingHeader.m in Sources */,
 				D08FA1891B39F5C700275F9E /* EndViewController.swift in Sources */,
 				D0E891F01B0EBAEF00AE33D9 /* StartScreenViewController.swift in Sources */,
 				D0E891CD1B0D8A5A00AE33D9 /* ViewController.swift in Sources */,
@@ -497,10 +481,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(PROJECT_DIR)/How",
+					High,
+					Ya,
+					Homie,
 					"$(PROJECT_DIR)/How",
 					High,
 					Ya,
@@ -510,7 +499,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = HowHighYaHomie;
-				SWIFT_OBJC_BRIDGING_HEADER = "How High Ya Homie/How High Ya Homie-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -520,10 +509,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(PROJECT_DIR)/How",
+					High,
+					Ya,
+					Homie,
 					"$(PROJECT_DIR)/How",
 					High,
 					Ya,
@@ -533,7 +527,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = HowHighYaHomie;
-				SWIFT_OBJC_BRIDGING_HEADER = "How High Ya Homie/How High Ya Homie-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
